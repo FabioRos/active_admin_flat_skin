@@ -691,11 +691,13 @@ html {
     }
     a.ui-state-highlight {
       background-color: $skinActiveColor;
-      color: #FFFFFF;
+      color: #FFF;
     }
 
   }
-
+  .ui-datepicker-header:before{
+    border-bottom: 10px solid $skinActiveColor !important;
+  }
 
 
 }
