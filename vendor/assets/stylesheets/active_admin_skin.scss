@@ -324,8 +324,12 @@ html {
         padding-right: 7px;
       }
 
+      #q_amount_input{
+        margin-top: 2rem;
+      }
+
       :not(label){
-        height: 1.5em !important;
+        height: 1.9rem !important;
         /*width: 60%;*/
       }
     }
@@ -454,9 +458,10 @@ html {
   body.logged_in {
     .flashes {
       .flash {
-        position: inherit;
-        top: 0;
-        text-shadow: none;
+        display: none;
+        //position: inherit;
+        //top: 0;
+        //text-shadow: none;
       }
     }
   }

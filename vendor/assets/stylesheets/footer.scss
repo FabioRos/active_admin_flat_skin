@@ -1,5 +1,9 @@
 #footer{
-  p{float: left;}
+  // margin-left:16%;
+  p{
+    //float: left;
+    display: none;
+  }
   #utility_nav{
     float: right;
     margin: 0;
